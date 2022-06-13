@@ -10,6 +10,7 @@
     "test": "jest",
     "watch": "rollup -c -w",
     "postinstall": "yarn run build"
+    "start":"set NODE_ENV=production&&node server.js"
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
